@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>提問處</title>
+    <link rel="stylesheet" href="page5.css"> 
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<h1 class="h1">歡迎提問</h1>
+<form id="contactForm">
+    <div class="form-group">
+        <label for="name">姓名:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">電子郵件:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="message">留言:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    <button type="submit">提交</button>
+</form>
+
+<div id="thankYouMessage" class="message" style="display: none;">
+    感謝您的留言！
+</div>
+<div data-role="main" class="ui-content">
+    <a href="index.html" data-transition="flow" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">首頁</a>
+</div>
+</body>
+</html>
