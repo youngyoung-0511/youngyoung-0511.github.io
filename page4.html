@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>最近</title>
+    <title>我的喜好</title>
     <link rel="stylesheet" href="page4.css">
     
 <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+    .ui-content .ui-btn {
+        text-align: right; 
+    }
+    .ui-content {
+        text-align: right; 
+    }
+</style>
 </head>
 <body>
 
     <header>
         <div class="cont">
             <h1>
-                環保從你我做起
+                我的喜好
             </h1>
         </div>
         <nav>
@@ -23,7 +31,7 @@
                 <li><a href="index.html">我是廖進揚</a></li>
                 <li><a href="page2.html">劍</a></li>
                 <li><a href="page3.html">戟</a></li>
-                <li><a href="page4.html"></a></li>
+                <li><a href="page4.html">我的喜好</a></li>
                 <li><a href="page5.html">提問處</a></li>
 
             </ul>
@@ -32,26 +40,29 @@
 
     <div class="container ocean-background">
         <section class="main-content">
-            <h1>海洋保育</h1>
-            <p>海洋是地球上最大的生態系統之一，但面臨著嚴重的污染和過度開發。以下是一些保護海洋的方法：</p>
+            <h1>我的喜好</h1>
+            <p>基本上所有的靜態活動我都不討厭</p>
 
             <ul>
-                <li><strong>塑料減少：</strong> 減少使用一次性塑料，尤其是塑料袋、瓶子和吸管。</li>
-                <li><strong>海灘清潔：</strong> 參與海灘清潔活動，清理垃圾，保護海洋生態。</li>
-                <li><strong>海洋保護區：</strong> 支持和參與海洋保護區的設立和管理。</li>
-                <li><strong>教育宣導：</strong> 提高公眾對海洋保育的認識，鼓勵可持續的海洋行為。</li>
-                <li><strong>支持海洋保育團體：</strong> 參與或支持致力於保護海洋的組織。</li>
+                <li>看電影<strong></strong></li>
+                <li>看小說<strong></strong></li>
+                <li>拼拼圖<strong></strong></li>
             </ul>
 
-            <p>我們的行動可以幫助維護海洋的健康，保護海洋生態系統。</p>
+            <p>因為我國小從單槓上摔下來，所以在那之後對動態活動有點畏懼。</p>
         </section>
 
         <aside class="sidebar">
-            <h2>相關影片</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/U3_ogQpdXb8?si=9nppnYJGl9B6yBUT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h2>相關圖片</h2>
+            <iframe width="700" height="700" src="img/abc.png"></iframe>
         </aside>
     </div>
-
+    <div data-role="main" class="ui-content">
+        <a href="page5.html" data-transition="flow" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">前往第五頁</a>
+    </div>
+    <div data-role="main" class="ui-content">
+        <a href="page2.html" data-transition="flow" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">回上一頁</a>
+    </div>
 
 </body>
 </html>
